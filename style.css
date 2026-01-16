@@ -11,11 +11,19 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     height: 100px;
    
     text-align: center;
     align-items: center;
+    width: 1100px;
+      margin: 0 120px;
+  
+}
+
+nav h3{
+  font-size: 26px;
+  font-weight: bold;
 }
 
 nav ul{
@@ -168,5 +176,77 @@ nav ul a{
   font-size: 24px;
   margin: 3px 0px 0px 0px;
 }
+#see-more{
+  position: relative;
+  left: 1100px;
+  top: 30px;
+}
+#see-more a{
+ font-size: 16px;
+ font-weight: bold;
+ text-decoration: none;
+ color: #E02C6D;
+}
+.feature{
+  margin: 100px 165px 100px 165px;
+  
+  display: flex;
+  gap:96px;
+  align-items: center;
+  justify-content: center;
+}
 
+.feature-text h2{
+  font-size: 38px;
+  font-weight: bold;
+  color:#0A0826
+}
+.feature-text p{
+  font-size: 16px;
+  font-weight: bold;
+  color:#6C6C6C;
+ 
+  width: 500px;
+}
+.feature-text button{
+  padding: 10px 24px ;
+  border: none;
+  
+  height: 44px;
+  width: 150px;
+  background-color: #E02C6D;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #0A0826;
+  color: white;
+}
+.footer-text{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.icon{
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: #38365d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
