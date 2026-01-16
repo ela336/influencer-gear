@@ -89,10 +89,84 @@ nav ul a{
   margin-right: 227px;
   max-width: 1110px;
   height: 110px;
+  border-top: 1px solid #3a3a3a60;
+   border-bottom: 1px solid  #3a3a3a53;
+   display: flex;
+   align-items: center;
   
 }
 .logo img{
   margin-right: 50px;
  
 }
+.card-section {
+  
+  margin: 100px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:30px;
+ 
+  width:1050px;
+  margin: 0 auto;
+}
+.card{
+
+ 
+  height: 470px;
+  width: 329px;
+ box-shadow: 10px 10px 25px rgb(194, 191, 191);
+  border-radius: 5px;
+ padding: 10px 0px 20px 15px;
+
+
+ 
+}
+
+
+.card img{
+  height: 250px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  
+ 
+}
+
+.card-section h2{
+  font-size: 28px;
+  font-weight: 600px;
+ 
+  color: #3A3A3A;
+  text-align: center;
+}
+.card h3{
+  font-size: 28px;
+  font-weight: 500px;  
+  color: #3A3A3A;
+  margin: 0px;
+  
+}
+.star{
+  color: orange;
+  font-weight:bolder;
+}
+
+.card .para{
+ 
+ 
+  width: 196px;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  margin: 0px;
+  
+}
+.card .price{
+  font-size: 24px;
+  margin: 3px 0px 0px 0px;
+}
+
 
