@@ -250,3 +250,92 @@ footer{
   justify-content: center;
 }
 
+@media screen and (max-width: 576px){
+         nav{
+          flex-direction: column;
+          margin: 5px 60px 60px 40px;
+          width: 65%;
+         }
+
+        .banner {
+             flex-direction: column;
+               margin: 0 auto;
+             gap: 30px;
+            max-width: 1140px;
+           padding-bottom: 50px;
+        }
+         
+.banner-text h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #3A3A3A;
+  width: 95%;
+  max-width: 576px;
+}
+.banner-text button {
+  margin:  10px 70px;
+}
+.banner-text p{
+  margin: 0 10px;
+}
+.banner .banner-img {
+  height: 410px;
+  width: 100%;
+  background-image: url(./images/Circle\ design.svg);
+}
+.banner img {
+  height: 400px;
+  width: 100%;
+}
+
+
+.logo {
+  margin: 0 auto;
+  max-width: 1110px;
+  height: 350px;
+  padding: 10px;
+ gap: 20px;
+  flex-direction: column;
+}
+.card-section {
+  margin: 50px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+  width: 60%;
+ margin-left: 15px;
+ margin-right: 10px;
+}
+#see-more {
+ left: 20px;
+  
+}
+
+
+
+.feature {
+  
+
+  flex-direction: column;
+  gap: 50px;
+
+  
+}
+.feature-text{
+margin-left: 50px;
+}
+.feature-text h2{
+  font-size: 25px;
+ 
+}
+
+
+.feature-text button {
+  margin-left:110px;
+}
+}
+  
